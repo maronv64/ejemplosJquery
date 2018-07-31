@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>practica </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<style type="text/css" media="screen">
+	
+
+      li{
+      	background: #000;
+      }
+   li:hover{
+      	background: #fff;
+      }
+
+
+	}
+</style>
+<body> 
+
+        <div>
+        	con jquery
+        <ul class="nav" >
+  			<li class="nav-item" >
+    			<a class="nav-link active" id="ca1"  href="#">INICIO</a>
+  			</li>
+ 			 <li class="nav-item"  >
+  				  <a class="nav-link" id="ca2" href="#">NOSOTROS</a>
+ 			 </li>
+ 			 <li class="nav-item" >
+  				  <a class="nav-link" id="ca3" href="#">CONTACTOS</a>
+ 			 </li>
+  			<li class="nav-item"  >
+   				 <a class="nav-link disabled" id="ca4" href="#">UBICACION</a>
+  			</li>
+		</ul>
+        </div>
+
+        <br>
+
+          <div> 
+          	con css
+        <ul class="nav" >
+  			<li class="nav-item" >
+    			<a class="nav-link active"   href="#">INICIO</a>
+  			</li>
+ 			 <li class="nav-item"  >
+  				  <a class="nav-link"  href="#">NOSOTROS</a>
+ 			 </li>
+ 			 <li class="nav-item" >
+  				  <a class="nav-link"  href="#">CONTACTOS</a>
+ 			 </li>
+  			<li class="nav-item"  >
+   				 <a class="nav-link disabled"  href="#">UBICACION</a>
+  			</li>
+		</ul>
+        </div>
+
+	     <br>
+	     <div class="input-group col">
+           <span class="input-group-addon" id="basic-addon1">@</span>
+            <input id="text" type="text" class="form-control w3-blue" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+         </div>
+         <br>
+
+    <div class="card-body">
+    	<button type="button" id="nuevo" class="btn btn-success" onclick="crear();">crear Filas</button>
+          <div class="table-responsive">
+            <table class="table table-bordered table-responsive  "  width="100%" cellspacing="0" >
+              <thead style="background: #008080;color: #fff;">
+                <tr>
+                  <th style="text-align: center;">Codigo</th>
+                  <th style="text-align: center;">Nombre</th>
+                  <th style="text-align: center;">Apellido</th>
+                  <th >Acciones</th>
+                  </center>
+                </tr>
+              </thead>
+              
+              <tbody id="tablaDatos" style="text-align: center;">
+               
+              </tbody>
+            </table>
+          </div>
+        </div>
+  
+
+
+        
+	<script  src="../jquery-3.2.1.min.js" type="text/javascript"></script>
+
+	<script src="js/mysjs.js"  type="text/javascript"></script>
+	 
+</body>
+</html>

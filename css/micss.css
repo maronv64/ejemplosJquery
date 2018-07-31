@@ -1,0 +1,9 @@
+.bordeImg{
+    border: 4px solid rgb(82, 29, 29);
+}
+.bordeBtn{
+    border: 2px solid rgba(23, 192, 155, 0.582);
+}
+.rellenoCuerpo{
+    background-color: #3274b6;
+}

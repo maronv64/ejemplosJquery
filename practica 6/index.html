@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>practica </title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	
+</head>
+<style type="text/css" media="screen">
+	
+
+      li{
+      	background: #000;
+      }
+   li:hover{
+      	background: #fff;
+      }
+
+	.columnaizq{
+		background: red;
+		min-height: 440px;
+		
+	}
+	.columnader{
+		background: blue;
+		min-height: 440px;
+	}
+	
+</style>
+<body> 
+
+        <div>
+        	con jquery
+        <ul class="nav" >
+  			<li id="btnInicio" class="nav-item" >
+    			<a class="nav-link active" id="ca1"  href="#">INICIO</a>
+  			</li>
+ 			 <li id="btnNosotros" class="nav-item"  >
+  				  <a class="nav-link" id="ca2" href="#">NOSOTROS</a>
+ 			 </li>
+		</ul>
+        </div>
+	<div class="row">
+		<div class="col-md-3 columnaizq" >
+			<div class="container">
+				......
+			</div>
+		</div>
+	
+		<div id="pagresultado" class="col-md-9 columnader" onload="CargarPeliculas()">
+			<div class="container">
+				......
+			</div>
+		</div>
+	</div>
+        <br>
+<!--
+        <div> 
+          	con css
+        <ul class="nav" >
+  			<li class="nav-item" >
+    			<a class="nav-link active"   href="#">INICIO</a>
+  			</li>
+ 			 <li class="nav-item"  >
+  				  <a class="nav-link"  href="#">NOSOTROS</a>
+ 			 </li>
+ 			 <li class="nav-item" >
+  				  <a class="nav-link"  href="#">CONTACTOS</a>
+ 			 </li>
+  			<li class="nav-item"  >
+   				 <a class="nav-link disabled"  href="#">UBICACION</a>
+  			</li>
+		</ul>
+        </div>
+
+-->
+        
+	<script  src="../js/jquery-3.2.1.js" type="text/javascript"></script>
+
+	<script src="js/mysjs.js"  type="text/javascript"></script>
+	
+	<script  src="../js/peticionesAjax.js" type="text/javascript"></script>
+	 
+</body>
+</html>
